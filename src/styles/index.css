@@ -1,0 +1,414 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SF-Pro-Display-Light";
+  src: url(../assets/fonts/SF-Pro-Display-Light.ttf);
+}
+@font-face {
+  font-family: "SF-Pro-Display-Thin";
+  src: url(../assets/fonts/SF-Pro-Display-Thin.ttf);
+}
+@font-face {
+  font-family: "SF-Pro-Display-Bold";
+  src: url(../assets/fonts/SF-Pro-Display-Bold.ttf);
+}
+@font-face {
+  font-family: "SF-Pro-Display-Medium";
+  src: url(../assets/fonts/SF-Pro-Display-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../assets/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../assets/fonts/Montserrat-Thin.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(../assets/fonts/Montserrat-Black.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.family-thin {
+  font-family: "Montserrat-Thin" !important;
+}
+.family-light {
+  font-family: "Montserrat-Light" !important;
+}
+.family-medium {
+  font-family: "Montserrat-Medium" !important;
+}
+.family-bold {
+  font-family: "Montserrat-Bold" !important;
+}
+.family-black {
+  font-family: "Montserrat-Black" !important;
+}
+
+.font-white {
+  color: #ffffff !important;
+}
+.font-gray {
+  color: #b2b2b2 !important;
+}
+.font-red {
+  color: #c44040 !important;
+}
+.font-dark {
+  color: #1a1a1a !important;
+}
+.font-black {
+  color: #000000 !important;
+}
+
+.font-yellow {
+ color: #ffc300 !important;  
+}
+
+.font-small {
+  font-size: 0.8rem;
+}
+.font-normal {
+  font-size: 1rem;
+}
+.font-medium {
+  font-size: 1.2rem;
+}
+.font-lg {
+  font-size: 2rem;
+}
+.font-big {
+  font-size: 3rem;
+}
+
+.mascote {
+  animation: bounce 3s infinite;
+}
+
+.seta {
+  position: absolute;
+  bottom: 20px;
+  right: auto;
+  left: auto;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.back-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.back-top svg {
+  color: #1a1a1a !important;
+}
+
+.box-number {
+  background: rgba(255, 255, 255, 0);
+  animation-name: box-show;
+  animation-duration: 2s;
+}
+
+@keyframes box-show {
+  from {
+    background: rgba(255, 255, 255, 1);
+  }
+  to {
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+.bars-tecnology {
+  animation-name: slidein;
+}
+
+.topo {
+  background: url(../assets/background/bkg_topo.jpg) top black no-repeat fixed;
+  background-size: 100%;
+}
+
+.bio {
+  background: url(../assets/background/bkg-bio.jpg) top  center no-repeat fixed;
+  background-size: cover;
+}
+
+.palestra {
+  background: url(../assets/background/bkg-palestra.jpg) top black no-repeat
+    fixed;
+  background-size: 100%;
+}
+
+.era {
+  background: url(../assets/background/bkg-era.jpg) center bottom black
+    no-repeat fixed;
+  background-size: cover;
+}
+.pratica {
+  background: url(../assets/background/bkg-pratica.jpg) center bottom no-repeat
+    fixed;
+  background-size: cover;
+}
+.fazer {
+  background: url(../assets/background/bkg-fazer.jpg) center bottom black
+    no-repeat fixed;
+  background-size: cover;
+}
+
+.logo {
+  background: url(../assets/static/logo-bco.png) center no-repeat;
+
+}
+.curso {
+  background: url(../assets/background/Plano-Fundo.png) center bottom black
+    no-repeat;
+}
+
+.autor {
+  background: url(../assets/background/mentoria-.jpg) top left white  no-repeat;
+    background-size: cover;
+}
+
+.fundo {
+  background: url(../assets/background/fundo-bg.png) center top black no-repeat fixed;
+  background-size: cover;
+}
+
+.plano {
+  background: url(../assets/background/bkg-curso.jpg) center top #c1c1c1 no-repeat;
+  background-size: cover;
+}
+
+.rodape {
+  background: url(../assets/background/bkg-rodape.jpg) center right black
+    no-repeat fixed;
+  background-size: cover;
+}
+
+.logotipo {
+  margin-top: -100px;
+  animation: bounce 30s infinite;
+}
+
+.imgMac {
+  width: 100%;
+  height: auto;
+}
+
+.imgMac {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-family: SF-Pro-Display-Light;
+  border-left: 6px solid #ffc000;
+  padding-left: 24px;
+}
+
+.title-black {
+  font-family: SF-Pro-Display-Light;
+  border-left: 6px solid #1a1a1a;
+  padding-left: 24px;
+}
+
+.title-red {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.title-red strong {
+  font-family: SF-Pro-Display-Bold;
+  color: #ffc000;
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.line-height {
+  line-height: 2rem;
+}
+
+.header {
+  color: #b2b2b2;
+}
+
+.header strong {
+  color: #ffffff;
+}
+
+.descricao {
+  color: #ffffff;
+}
+
+.descricao strong {
+  font-family: "SF-Pro-Display-Bold" !important;
+}
+
+.bg-red {
+  background: #e50202;
+}
+
+.btn-black {
+  background: black;
+  width: 350px;
+}
+
+.btn-black:hover {
+  background: #1a1a1a;
+}
+
+.btn-red {
+  background: #c44040;
+  width: 350px;
+}
+
+.btn-red:hover {
+  background: #ea697e;
+}
+
+.tec_dir {
+  border-top-left-radius: 16px;
+}
+
+.tec_left {
+  border-bottom-right-radius: 16px;
+}
+
+strong {
+  font-family: SF-Pro-Display-Bold;
+}
+
+.formulario {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+}
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .font-big {
+    font-size: 2.4rem;
+  }
+  .btn-black {
+    width: 100%;
+  }
+  .btn-red {
+    width: 100%;
+  }
+  .topo {
+    background: url(../assets/background/bkg_topo-mobile.jpg) center 80% black
+      fixed;
+    height: 650px;
+  }
+
+  .imgMac {
+    width: 300px !important;
+    height: auto;
+  }
+
+  .rodape {
+    background: url(../assets/background/bkg-rodape-mobile.jpg) bottom right
+      black no-repeat fixed;
+  }
+
+  .autor {
+    background: black;
+  }
+
+  /* .imgSocial {
+    width: 150px !important;
+    flex-wrap: nowrap;
+  } */
+}
+@media (max-width: 575px) {
+  .font-big {
+    font-size: 2.4rem;
+  }
+  .btn-black {
+    width: 100%;
+  }
+  .btn-red {
+    width: 100%;
+  }
+}
+
+/* SCROLLBAR */
+@media only screen and (min-width: 600px) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ffc000 #ffc000;
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffc000;
+    border-radius: 20px;
+    border: 3px solid #1a1a1a;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+/* SCROLLBAR */
