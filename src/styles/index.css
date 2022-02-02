@@ -179,40 +179,9 @@ a {
   background-size: 100%;
 }
 
-.bio {
-  background: url(../assets/background/bkg-bio.jpg) top  center no-repeat fixed;
-  background-size: cover;
-}
-
-.palestra {
-  background: url(../assets/background/bkg-palestra.jpg) top black no-repeat
-    fixed;
-  background-size: 100%;
-}
-
-.era {
-  background: url(../assets/background/bkg-era.jpg) center bottom black
-    no-repeat fixed;
-  background-size: cover;
-}
-.pratica {
-  background: url(../assets/background/bkg-pratica.jpg) center bottom no-repeat
-    fixed;
-  background-size: cover;
-}
-.fazer {
-  background: url(../assets/background/bkg-fazer.jpg) center bottom black
-    no-repeat fixed;
-  background-size: cover;
-}
-
 .logo {
   background: url(../assets/static/logo-bco.png) center no-repeat;
 
-}
-.curso {
-  background: url(../assets/background/Plano-Fundo.png) center bottom black
-    no-repeat;
 }
 
 .autor {
@@ -221,7 +190,7 @@ a {
 }
 
 .fundo {
-  background: url(../assets/background/fundo-bg.png) center top black no-repeat fixed;
+  background: url(../assets/background/fundo-bg.jpg) center top black no-repeat fixed;
   background-size: cover;
 }
 
@@ -349,6 +318,7 @@ strong {
   .btn-red {
     width: 100%;
   }
+
   .topo {
     background: url(../assets/background/bkg_topo-mobile.jpg) center 80% black
       fixed;
@@ -358,11 +328,6 @@ strong {
   .imgMac {
     width: 300px !important;
     height: auto;
-  }
-
-  .rodape {
-    background: url(../assets/background/bkg-rodape-mobile.jpg) bottom right
-      black no-repeat fixed;
   }
 
   .autor {
