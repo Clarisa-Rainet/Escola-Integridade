@@ -330,9 +330,10 @@ strong {
     height: auto;
   }
 
-  .autor {
-    background: black;
-  }
+    .autor {
+      background: url(../assets/background/mentoria-.jpg) top left white  no-repeat;
+      background-size: cover;
+    }  
 
   /* .imgSocial {
     width: 150px !important;

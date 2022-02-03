@@ -133,7 +133,7 @@ const MenuSite = () => {
 
           <div className="flex">
             <a
-              href="https://www.instagram.com/luizfernandolucas/"
+              href="https://instagram.com/escoladaintegridade"
               target="_blank"
               rel="noreferrer"
             >
@@ -147,7 +147,7 @@ const MenuSite = () => {
               <img src={youtube} className="w-5 mr-4" />
             </a>
             <a
-              href="https://www.linkedin.com/in/fernandolucas/"
+              href="https://www.linkedin.com/company/escoladaintegridade"
               target="_blank"
               rel="noreferrer"
             >

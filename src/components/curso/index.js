@@ -16,7 +16,7 @@ export default function Page(props) {
   }, [window.innerWidth])
   return (
     <ScrollableAnchor id={'quem-somos'}>
-      <div className="plano flex">
+      <div className="plano flex w-full md:w-auto">
         <Fade right>
           <div className="w-6/12 flex items-center justify-center">
             <div>

@@ -5,6 +5,20 @@ import { Fade } from "react-reveal";
 import logo from "../../assets/static/logo-bco.png"
 
 export default function Page(props) {
+  const btnScrollTop = useRef(null);
+  const [showBtn, setShowBtn] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = (event) => {
+    if (window.pageYOffset >= 700 && !showBtn) {
+      setShowBtn(true);
+    } else {
+      setShowBtn(false);
+    }
+  };
     const [isMobile, setMobile] = useState(false);
     useEffect(() => {
       if (window.innerWidth >= 992) {
@@ -15,7 +29,7 @@ export default function Page(props) {
     }, [window.innerWidth]);
     return (
       <ScrollableAnchor id={"artigos"}>
-        <div className="fundo max-h-screen">
+        <div className="fundo w-full md:max-h-screen">
           <Fade right>
             <div className="justify-left ml-40">
               <img src={logo} className="w-2/5 pt-40" />

@@ -9,7 +9,7 @@ import youtube from '../../assets/icons/youtube.png'
 import linkedin from '../../assets/icons/linkedin.png'
 import spotify from '../../assets/icons/spotify.png'
 
-import logo from '../../assets/icons/logo.png'
+import logo from '../../assets/icons/LOGO-branco.png'
 
 export default function Page(props) {
   const [loading, setLoading] = useState(false)
