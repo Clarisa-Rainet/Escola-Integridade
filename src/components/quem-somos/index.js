@@ -20,7 +20,7 @@ export default function Page(props) {
       <div className="autor flex">
         <Fade right>
           <div className="w-12 md:w-6/12 flex items-center justify-center"></div>
-          <div className="w-full md:w-6/12 p-12 lg:p-32">
+          <div className="w-full md:w-6/12 p-10 md:p-12 lg:p-32">
             <div className="text-3xl family-light font-black mb-12">
               <strong>MENTORIA</strong> O Caminho da Integridade
             </div>
