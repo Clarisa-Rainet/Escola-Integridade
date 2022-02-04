@@ -28,19 +28,19 @@ export default function Page(props) {
             </div>
             <div className="family-light font-black">
               Somos uma <strong>Ed.Tech</strong>, uma startup de educação, mas
-              já da Era da Integridade, então temos com bases dte sustentação os
+              já da Era da Integridade, então temos com bases de sustentação os
               valores absolutos e como propósito contribuir com a evolução do
               planeta e da humanidade.
               <br />
               <br />
               Entendemos que levar filosofia de ação e conceitos sobre a Cultura
-              de valores e Integridade são os pilares elevar a consciência e
+              de valores e Integridade são os pilares para elevar a consciência e
               transformar mentes e corações para uma liderança e vida como se
               estivesse servindo a uma nobre missão.
               <br />
               <br />
               Somos compostos por duas organizações independentes. Uma empresa
-              privada e um Instituto parceiro que tanto se beneficia dos
+              privada e um Instituto parceiro que tanto se beneficiam dos
               resultados da Escola quanto com essa contribui com ações e
               conteúdos e a missão de despertar a consciência coletiva de
               cidadania com ética, integridade na área pública e política e
