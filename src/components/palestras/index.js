@@ -43,14 +43,14 @@ export default function Page(props) {
               <strong>Cursos</strong> Online
             </div>
 
-            <div className="flex justify-between w-full space-x-11	md:space-x-auto">
+            <div className="flex justify-between w-full space-x-9	md:space-x-auto">
               <div className="text-left">
                 Para Você
                 <a
                   href="https://luiz-fernando-amaral-lucas.memberkit.com.br/invites/bZgkpG/join"
                   target="_blank"
                 >
-                  <img src={você} alt="para Você" className="max-w-fit md:max-w-auto mt-6 md:mt-auto" />
+                  <img src={você} alt="para Você" className="max-w-fit md:max-w-auto mt-2 md:mt-0 lg:mt-4" />
                 </a>
               </div>
 
