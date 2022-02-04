@@ -22,8 +22,8 @@ export default function Page(props) {
               <img src={imgSomos} width="640" height="640" />
             </div>
           </div>
-          <div className="w-full md:w-6/12 p-12 lg:p-32">
-            <div className="text-3xl family-light font-black mb-12">
+          <div className="w-full md:w-6/12 p-4 md:p-12 lg:p-32">
+            <div className="text-3xl family-light font-black my-16">
               <strong>QUEM</strong> SOMOS
             </div>
             <div className="family-light font-black">
