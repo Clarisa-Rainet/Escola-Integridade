@@ -17,10 +17,10 @@ export default function Page(props) {
   }, [window.innerWidth])
   return (
     <ScrollableAnchor id={''}>
-      <div className="autor bg-auto bg-no-repeat bg-center flex">
+      <div className="autor flex">
         <Fade right>
-          <div className="w-6/12"></div>
-          <div className="w-6/12 p-32">
+          <div className="w-12 md:w-6/12 flex items-center justify-center"></div>
+          <div className="w-full md:w-6/12 p-12 lg:p-32">
             <div className="text-3xl family-light font-black mb-12">
               <strong>MENTORIA</strong> O Caminho da Integridade
             </div>
@@ -35,7 +35,7 @@ export default function Page(props) {
               e questões particulares, com datas a definir. Inclui também uma
               vaga para participação em Encontro Presencial, uma imersão de 3
               dias realizado na Grande SP ou arredores, possivelmente em Cotia,
-              SP) *(custo de estadia e alimentação não incluído, é opcional a
+              SP *(custo de estadia e alimentação não incluído, é opcional a
               participação).
               <br />
               <br />
@@ -56,7 +56,8 @@ export default function Page(props) {
               Grupo ou consultar opções INDIVUDUAL ou Grupos CORPORATIVOS
             </div>
 
-            <div className="flex mt-8">
+
+            <div className="flex mt-8 m-auto max-w-md md:max-w-lg">
               <a href="https://fernandolucas.com.br/site/" target="_blank">
                 <img src={btnSaiba} height="46" />
               </a>

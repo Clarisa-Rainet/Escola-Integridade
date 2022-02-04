@@ -16,14 +16,13 @@ export default function Page(props) {
   }, [window.innerWidth])
   return (
     <ScrollableAnchor id={'quem-somos'}>
-      <div className="plano flex w-full md:w-auto">
+      <div className="plano flex bg-local md:bg-fixed">
         <Fade right>
-          <div className="w-6/12 flex items-center justify-center">
-            <div>
+          <div className="w-12 md:w-6/12 flex items-center justify-center"><div>
               <img src={imgSomos} width="640" height="640" />
             </div>
           </div>
-          <div className="w-6/12 p-32">
+          <div className="w-full md:w-6/12 p-12 lg:p-32">
             <div className="text-3xl family-light font-black mb-12">
               <strong>QUEM</strong> SOMOS
             </div>

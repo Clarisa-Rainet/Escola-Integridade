@@ -35,22 +35,22 @@ export default function Page(props) {
 
   return (
     <ScrollableAnchor id={'cursos'}>
-      <div className="bg-black flex justify-center">
+      <div className="bg-black flex justify-around md:justify-center">
         <Fade>
-          <div className="w-8/12 flex flex-row grid p-20">
-            <div className="font-lg mb-8 uppercase">
+          <div className="w-full md:w-8/12 flex flex-col md:flex-row grid md:px-10 py-10 lg:py-16 2xl:py-24 lg:px-20 2xl:px-52">
+          <div className="mx-4 md:mx-0 mb-8 md:mb-16">
+            <div className="font-lg mb-8 uppercase text-2xl 2xl:text-3xl">
               <strong>Cursos</strong> Online
             </div>
 
-            <div className="flex justify-between w-full">
+            <div className="flex justify-between w-full space-x-11	md:space-x-auto">
               <div className="text-left">
                 Para Você
                 <a
                   href="https://luiz-fernando-amaral-lucas.memberkit.com.br/invites/bZgkpG/join"
-                  className="transition duration-500 ease-in-out transform w-full p-2 mt-5 family-medium uppercase w-6 text-white text-center"
                   target="_blank"
                 >
-                  <img src={você} alt="para Você" className="mt-2" />
+                  <img src={você} alt="para Você" className="max-w-fit md:max-w-auto mt-6 md:mt-auto" />
                 </a>
               </div>
 
@@ -63,6 +63,8 @@ export default function Page(props) {
                 Para Sociedade
                 <img src={sociedade} alt="para Sociedade" className="mt-2" />
               </div>
+            </div>
+            
             </div>
           </div>
         </Fade>

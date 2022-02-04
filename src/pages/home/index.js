@@ -1,7 +1,7 @@
 import React from 'react'
 import { configureAnchors } from 'react-scrollable-anchor'
 
-import { Menu, Posts, Palestra, Curso, Autor, Rodape } from '../../components'
+import { Menu, Posts, Palestra, Curso, QuemSomos, Rodape } from '../../components'
 
 const Home_Page = () => {
   configureAnchors({ offset: -60, scrollDuration: 2000 })
@@ -12,7 +12,7 @@ const Home_Page = () => {
       <Posts />
       <Palestra />
       <Curso />
-      <Autor />
+      <QuemSomos />
       <Rodape />
     </div>
   )
