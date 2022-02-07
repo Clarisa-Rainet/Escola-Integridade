@@ -33,9 +33,11 @@ export default function Page(props) {
           <Fade right>
             <div className="justify-center md:justify-left ml-10 md:ml-40">
               <img src={logo} className="w-2/5 pt-40" />
-                <div className="flex font-medium family-light font-white">
-                  <br />Integridade Corporativa: Pra minha empresa, 
-                  <br />pra minha equipe e no meu papel como líder.
+                <div className="flex font-medium family-light font-white pr-4 md:pr-0">
+                  <br />Jornada Individual do desenvolvimento pessoal. 
+                  <br />Auto-observação que leva ao autoconhecimento 
+                  <br />e a viver uma jornada de herói, de realização dos sonhos 
+                  <br />e propósitos pela expansão da consciência.
                   </div>
                 </div>
               <div className="pt-2 md:pt-4 pb-12 md:pb-48">
